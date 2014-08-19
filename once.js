@@ -94,6 +94,12 @@
       }
     },
     {
+      name: 'onceFor',
+      binding: function (element, value) {
+        element.attr('for', value);
+      }
+    },
+    {
       name: 'onceIf',
       binding: function (element, value) {
         if (!value) {
