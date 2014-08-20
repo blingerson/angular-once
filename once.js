@@ -100,6 +100,12 @@
       }
     },
     {
+      name: 'oncePlaceholder',
+      binding: function (element, value) {
+        element.attr('placeholder', value);
+      }
+    },
+    {
       name: 'onceIf',
       binding: function (element, value) {
         if (!value) {

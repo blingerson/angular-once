@@ -82,6 +82,8 @@ List below contains comparison of angular-once directives ( **one time bindings*
 | `once-title="value"`     | `ng-attr-title` |`<ANY once-title="user.name"></ANY>`|
 | `once-alt="value"`     | `ng-attr-alt` |`<img once-alt="user.name" />`|
 | `once-id="value"`     | `ng-attr-id` |`<ANY once-id="user.name" /></ANY>`|
+| `once-for="value"`     | `ng-attr-id` |`<ANY once-for="'fname_' + item.uuid" /></ANY>`|
+| `once-placeholder="value"`     | `ng-attr-id` |`<ANY once-placeholder="field.placeholder" /></ANY>`|
 | `once-if="condition"`     | `ng-if` |`<ANY once-if="user.isAdmin" /></ANY>`|
 | `once-class="name:cond"`     | `ng-class` |`<ANY once-class="{'p': user.admin}" /></ANY>`|
 | `once-style="value"`     | `ng-style` |`<ANY once-style="{color:blue}" /></ANY>`|
